@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color:rgb(82, 171, 187);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #98cbd8;
+    font-size: 18px;
+    transition: 0.5s;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color:rgb(243, 243, 243);
+    font-weight: 600;
+    
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+   content: "";
+   width:40%;
+   height: 3px;
+   background-color: #050a33;
+   position: absolute;
+   bottom: -4px;
+   left: 20px;
+}
+#footer{
+    display: flex;
+    font-size: 18px;
+    background-color: rgb(51, 55, 65);
+    color: white;
+  
+    align-items:center ;
+    padding: 20px 0;
+   
+  }
+  #footer >div{
+    margin-left: 18%;
+ 
+  }
+  #footer >div>p{
+    padding-top: 10px;
+  }
+ #signin_container{
+           display:flex;
+           margin-left:300px;
+           margin-right:300px;
+           justify-content: space-between;
+           font-family:Arial,sans-serif;
+           margin-top: 50px;
+           margin-bottom: 50px;
+        
+       }
+       #left_side_signin>h1{
+           text-align:center;
+        
+       }
+       #rightside_signin{
+           text-align: center;
+       }
+       #left_side_signin>h4{
+           font-size:16px;
+           font-weight:lighter;
+           color: gray;
+       }
+       #left_side_signin>form>h1{
+        font-size:16px;
+           font-weight:lighter;
+           color: gray;
+           text-align: center;
+
+       }
+      
+       #left_side_signin>input{
+           padding-right:180px;
+           padding-top: 13px;
+           
+
+       }
+       #email_address{
+        padding-right:120px;
+           padding-top: 6px;
+           padding-bottom:7px;
+
+       }
+       #password_box>input{
+           padding-right:120px;
+           padding-top: 6px;
+           padding-bottom:7px;
+       }
+       #show_password{
+           padding-top:5px;
+           padding-bottom:6px;
+           border:none;
+           background: none;
+           margin: 0;
+           
+       }
+       #show_password:hover{
+           background-color: #f2f2f2;
+           padding-top:5px;
+           padding-bottom:6px;
+       }
+       
+      
+
+       #rightside_signin>img{
+           width:400px
+
+       }
+       #rightside_signin>h1,h4{
+        font-size:16px;
+           font-weight:lighter;
+           color: gray;
+
+       }
+       #creat_button>a>button{
+           padding-top:10px;
+           padding-bottom:10px;
+           padding-left:35px;
+           padding-right:35px;
+           background-color: black;
+           color:white;
+           text-decoration: none;
+       }
+       #creat_button>button:hover{
+           background-color: #f2f2f2;
+           color: gray;
+           border-color: #f2f2f2;
+           cursor: pointer;
+
+       }
+       #signin_button_down{
+           text-align: center;
+       }
+       #signin_button_down>button{
+        padding-top:10px;
+           padding-bottom:10px;
+           padding-left:35px;
+           padding-right:35px;
+           background-color: black;
+           color:white;
+
+
+       }
+       #signin_button_down>button:hover{
+           background-color: #f2f2f2;
+           color: gray;
+           border-color:white;
+           
+       }
+       #forgot_password{
+           display:flex;
+           justify-content:space-between;
+       }
+       #privacy_button>h4>button{
+           
+            border:none;
+           background: none;
+           margin: 0;
+           text-decoration: underline;
+           color: gray;
+        
+
+       }
+       #privacy_button>h4>button:hover{
+           text-decoration: none;
+           cursor: pointer;
+       }
+       #privacy_button>h4{
+        text-align: center;
+
+       }
